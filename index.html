@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <p class="eyebrow">Hi, I&rsquo;m</p>
+  <h1>Gokul</h1>
+  <p class="tagline">Curious builder, future professional</p>
+  <p class="intro">I&rsquo;m a student who likes to learn new things. Here I share my projects, a bit about me, and what I&rsquo;m learning through regular blog posts.</p>
+</section>
+
+<section class="section">
+  <h2>What you&rsquo;ll find here</h2>
+  <div class="prose">
+    <p><a href="{{ '/about/' | relative_url }}">About</a> &mdash; a short introduction and what I&rsquo;m learning.</p>
+    <p><a href="{{ '/projects/' | relative_url }}">Projects</a> &mdash; work I&rsquo;m building and sharing on GitHub (more coming soon).</p>
+    <p><a href="{{ '/blog/' | relative_url }}">Blog</a> &mdash; notes about what I learn, including AI coding and web development.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Latest posts</h2>
+  {% if site.posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <div class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="muted">No posts yet.</p>
+  {% endif %}
+</section>
