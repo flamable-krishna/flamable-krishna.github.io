@@ -7,7 +7,7 @@ permalink: /projects/
 
 I&rsquo;m learning and adding projects to my GitHub. This page showcases curated work &mdash; I&rsquo;ll update it as I release new projects.
 
-<p><a href="https://github.com/flamble-gokul" target="_blank" rel="noopener noreferrer">View my GitHub profile &rarr;</a></p>
+<p><a href="https://github.com/flamable-krishna" target="_blank" rel="noopener noreferrer">View my GitHub profile &rarr;</a></p>
 
 {% if site.data.projects and site.data.projects.size > 0 %}
 <ul class="card-list">

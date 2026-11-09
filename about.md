@@ -23,4 +23,4 @@ Hello! I&rsquo;m **Gokul**, a student who likes to learn new and interesting thi
 ## Contact
 
 - Email: [gokul19037982@gmail.com](mailto:gokul19037982@gmail.com)
-- GitHub: [github.com/flamble-gokul](https://github.com/flamble-gokul)
+- GitHub: [github.com/flamable-krishna](https://github.com/flamable-krishna)

@@ -2,9 +2,9 @@
 
 A clean, minimal personal website for **Gokul** with **Home, About, Projects, and Blog** pages. Built with [Jekyll](https://jekyllrb.com/) for native **GitHub Pages** hosting.
 
-- **Site (after publish):** https://flamble-gokul.github.io
-- **Repository:** `flamble-gokul/flamble-gokul.github.io`
-- **GitHub profile:** https://github.com/flamble-gokul
+- **Site (after publish):** https://flamable-krishna.github.io
+- **Repository:** `flamable-krishna/flamable-krishna.github.io`
+- **GitHub profile:** https://github.com/flamable-krishna
 
 ## Structure
 
@@ -52,20 +52,20 @@ Edit `_data/projects.yml` and add an entry:
 ```yml
 - name: My Project
   description: What it does and what I learned.
-  github: https://github.com/flamble-gokul/my-project
-  demo: https://flamble-gokul.github.io/my-project/   # optional; remove if none
+  github: https://github.com/flamable-krishna/my-project
+  demo: https://flamable-krishna.github.io/my-project/   # optional; remove if none
 ```
 
 You can add multiple entries. Commit and push to update the Projects page.
 
 ## Publish on GitHub Pages
 
-1. Create/push this repository as **`flamble-gokul/flamble-gokul.github.io`** on GitHub (user site).
+1. Create/push this repository as **`flamable-krishna/flamable-krishna.github.io`** on GitHub (user site).
 2. In the repo: **Settings → Pages**.
 3. Set **Source** to *Deploy from a branch*, choose your default branch (usually `main`) and folder **/ (root)**, then save.
-4. GitHub will build the Jekyll site and publish it at https://flamble-gokul.github.io.
+4. GitHub will build the Jekyll site and publish it at https://flamable-krishna.github.io.
 
-> Note: This machine may not have `git`/`gh` installed. You can upload files via the GitHub website (**Add file → Upload files**) or push from a machine with Git configured.
+> Note: If you are using the existing empty repo `flamable-krishna/flamble-gokul.github.io`, rename it to **`flamable-krishna.github.io`** in GitHub (**Settings → General → Repository name**) so it works as your user site at `https://flamable-krishna.github.io/`. Then push to the updated remote.
 
 ## Local preview (optional)
 

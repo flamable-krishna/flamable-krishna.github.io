@@ -1,11 +1,11 @@
 title: Gokul
 description: Student profile, projects, and learning blog by Gokul.
-url: "https://flamble-gokul.github.io"
+url: "https://flamable-krishna.github.io"
 baseurl: ""
 author:
   name: Gokul
   email: gokul19037982@gmail.com
-  github: flamble-gokul
+  github: flamable-krishna
 
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
