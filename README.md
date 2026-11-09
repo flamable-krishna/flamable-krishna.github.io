@@ -2,8 +2,8 @@
 
 A clean, minimal personal website for **Gokul** with **Home, About, Projects, and Blog** pages. Built with [Jekyll](https://jekyllrb.com/) for native **GitHub Pages** hosting.
 
-- **Site (after publish):** https://flamable-krishna.github.io/flamble-krishna.github.io/ *(project site; for a clean URL, rename the repo to `flamable-krishna.github.io`)*
-- **Repository:** `flamable-krishna/flamble-krishna.github.io`
+- **Site:** https://flamable-krishna.github.io/
+- **Repository:** `flamable-krishna/flamable-krishna.github.io`
 - **GitHub profile:** https://github.com/flamable-krishna
 
 ## Structure
@@ -60,13 +60,10 @@ You can add multiple entries. Commit and push to update the Projects page.
 
 ## Publish on GitHub Pages
 
-1. Push this repository to **`flamable-krishna/flamble-krishna.github.io`** on GitHub.
+1. Push this repository to **`flamable-krishna/flamable-krishna.github.io`** on GitHub (user site repo).
 2. In the repo: **Settings → Pages**.
 3. Set **Source** to *Deploy from a branch*, choose your default branch (usually `main`) and folder **/ (root)**, then save.
-4. GitHub will build the Jekyll site and publish it at **https://flamable-krishna.github.io/flamble-krishna.github.io/**.
-5. **Recommended:** Rename the repo to **`flamable-krishna.github.io`** (Settings → General → Repository name) for a clean user-site URL (`https://flamable-krishna.github.io/`). If you do, I’ll switch `baseurl` back to `""` and update the remote.
-
-> Note: If you are using the existing empty repo `flamable-krishna/flamble-gokul.github.io`, rename it to **`flamable-krishna.github.io`** in GitHub (**Settings → General → Repository name**) so it works as your user site at `https://flamable-krishna.github.io/`. Then push to the updated remote.
+4. GitHub will build the Jekyll site and publish it at **https://flamable-krishna.github.io/**.
 
 ## Local preview (optional)
 
